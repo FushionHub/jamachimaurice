@@ -12,7 +12,7 @@ export default function Home() {
     <div>
         <Header />
         <HeroSection />
-        <ProjectsSection />
+        <ProjectsSection id={"Project"} />
         <TapeSection />
         <TestimonialsSection />
         <AboutSection />
