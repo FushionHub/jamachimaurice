@@ -15,7 +15,7 @@ const footerLinks = [
   },
   {
     title: 'Website',
-    href: 'https://facebook.com/mauricennadijamachi',
+    href: 'https://me.fushionhubai.com.ng',
   },
 ]
 export const Footer = () => {
