@@ -6,13 +6,13 @@ export const Header = () => {
           <a href="/" className="nav-item">
               Home
           </a>
-          <a href="#Project" className="nav-item">
+          <a href="" className="nav-item">
               Projects
           </a>
-          <a href="#About" className="nav-item">
+          <a href="" className="nav-item">
               About
           </a>
-          <a href="#Contact" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">
+          <a href="" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">
               Contact
           </a>
         </nav>
