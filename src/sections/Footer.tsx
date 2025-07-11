@@ -3,19 +3,19 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: 'LinkedIn',
-    href: 'https://linkedin.com/in/mauricennadijamachi',
+    hrefs: 'https://linkedin.com/in/mauricennadijamachi',
   },
   {
     title: 'Twitter',
-    href: 'https://x.com/fushiondevhub',
+    hrefs: 'https://x.com/fushiondevhub',
   },
   {
     title: 'Instagram',
-    href: 'https://www.instagram.com/fushionhubdev',
+    hrefs: 'https://www.instagram.com/fushionhubdev',
   },
   {
     title: 'Website',
-    href: 'https://me.fushionhubai.com.ng',
+    hrefs: 'https://me.fushionhubai.com.ng',
   },
 ]
 export const Footer = () => {
@@ -34,8 +34,10 @@ export const Footer = () => {
 
             <nav className="flex flex-col md:flex-row items-center gap-8">
               {footerLinks.map((link) => (
-                <a href={link.href} key={link.title} className="inline-flex items-center gap-1.5">
-                  <button className="font-semibold">{link.title}</button>
+                <a href={link.hrefs} key={link.hrefs} className="inline-flex items-center gap-1.5">
+                  <button className="font-semibold">
+                    <span className="">{link.title}</span>
+                  </button>
                   <ArrowUpRightIcon className="size-4" />
                 </a>
               ))}
