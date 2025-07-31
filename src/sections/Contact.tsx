@@ -1,3 +1,4 @@
+import Link from "next/link";
 import  ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 export const ContactSection = () => {
@@ -30,7 +31,7 @@ export const ContactSection = () => {
                     </div>
                     <div className="">
 
-                      <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+                      <Link href="/contact" className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-800 transition-colors">
 
                           <span className="font-semibold">
                               Contact Me
@@ -38,7 +39,7 @@ export const ContactSection = () => {
 
                           <ArrowUpRightIcon className="size-4" />
 
-                      </button>
+                      </Link>
 
                     </div>
 

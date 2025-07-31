@@ -1,3 +1,4 @@
+import Link from "next/link";
 import memojiImage from '@/assets/images/memoji-computer.png';
 import Image from 'next/image';
 import ArrowDown from  '@/assets/icons/arrow-down.svg';
@@ -86,14 +87,14 @@ export const HeroSection = () => {
             </div>
 
             <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-                <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+                <Link href="/projects" className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl hover:bg-white/5 transition-colors">
                     <span className="font-semibold">Explore My Work</span>
                     <ArrowDown className="size-4" />
-                </button>
-                <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl">
+                </Link>
+                <Link href="/contact" className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl hover:bg-white/90 transition-colors">
                     <span className="">👋🏼</span>
                     <span className="font-semibold">Let&apos;s Connect</span>
-                </button>
+                </Link>
             </div>
         </div>
       </div>

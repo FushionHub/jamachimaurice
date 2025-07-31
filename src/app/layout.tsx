@@ -13,7 +13,7 @@ const calistoga = Calistoga ({
 
 export const metadata: Metadata = {
     title: "Jamachi Mauricennadi",
-    description: "I am Jamachi Mauricennadi a web, mobile & software developer.",
+    description: "Professional web, mobile & software developer specializing in React, Next.js, TypeScript, and cloud solutions.",
     keywords: "Jamachi, Mauricennadi, Jamachi Mauricennadi, FushionHub Ai, FushionHub Technology",
 };
 
