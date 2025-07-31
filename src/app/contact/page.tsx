@@ -74,7 +74,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-white/60">hello@jamachimauricennadi.com</p>
+                      <p className="text-white/60">jamachimauricennadi0@gmail.com</p>
                     </div>
                   </div>
 
@@ -84,7 +84,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold">Phone</p>
-                      <p className="text-white/60">+234 (0) 123 456 7890</p>
+                      <p className="text-white/60">+234 (0) 902 442 8551</p>
                     </div>
                   </div>
 
@@ -94,7 +94,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold">Location</p>
-                      <p className="text-white/60">Lagos, Nigeria</p>
+                      <p className="text-white/60">Owerri North Imo State, Nigeria</p>
                     </div>
                   </div>
 
