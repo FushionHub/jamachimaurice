@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+Sitemap: https://me.fushionhubai.com.ng/sitemap.xml
+
+# Disallow specific paths if needed
+# Disallow: /api/
+# Disallow: /admin/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

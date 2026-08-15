@@ -1,0 +1,50 @@
+# Jamachi Mauricennadi - AI Developer Portfolio
+
+## About
+Jamachi Mauricennadi is a professional web, mobile & software developer specializing in React, Next.js, TypeScript, AI integration, and cloud solutions. Expert in creating stunning digital experiences with cutting-edge technology.
+
+## Services
+- Web Development (React, Next.js, TypeScript)
+- Mobile App Development (React Native, Flutter)
+- AI Integration (Gemini, AgentRouter, Custom AI Solutions)
+- Cloud Infrastructure (AWS, Docker, Kubernetes)
+- API Development (Node.js, Express, RESTful APIs)
+- E-commerce Solutions
+- Consulting & Code Review
+
+## Contact
+- Email: jamachimauricennadi0@gmail.com
+- Phone: +2349024428551
+- Location: Owerri North Imo State, Nigeria
+- LinkedIn: https://linkedin.com/in/mauricennadijamachi
+- Twitter: https://x.com/fushiondevhub
+- Instagram: https://www.instagram.com/fushionhubdev
+
+## Portfolio
+- Fus Ai Bot (AI Chatbot)
+- Cloud Infrastructure App
+- CRM Website
+- Various SaaS applications
+
+## Technologies
+- Frontend: React, Next.js, TypeScript, Tailwind CSS, Framer Motion
+- Backend: Node.js, Express, MongoDB, PostgreSQL
+- AI/ML: Gemini, AgentRouter, Custom AI Models
+- Cloud: AWS, Docker, Kubernetes, Terraform
+- Mobile: React Native, Flutter, Swift, Kotlin
+
+## AI Capabilities
+- Question answering and knowledge reasoning
+- Appointment scheduling
+- Payment processing (Bachs.io integration)
+- Email automation and reminders
+- Voice integration (Speechify.ai)
+- 24/7 availability for customer interactions
+
+## Pricing
+- Starter Plan: ₦15,000/$15 monthly, ₦144,000/$144 yearly
+- Professional Plan: ₦35,000/$35 monthly, ₦336,000/$336 yearly
+- Enterprise Plan: ₦75,000/$75 monthly, ₦720,000/$720 yearly
+
+## Availability
+Available for new projects and collaborations. Specializes in scalable applications with modern technologies and AI integration.

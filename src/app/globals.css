@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .nav-item{
+        @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10  hover:text-white transition duration-500;
+    }
+
+    .hero-ring{
+        @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5;
+    }
+
+    /* 3D Animation Classes */
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+
+    .preserve-3d {
+        transform-style: preserve-3d;
+    }
+
+    .rotate-y-12 {
+        transform: rotateY(12deg);
+    }
+
+    .rotate-x-6 {
+        transform: rotateX(6deg);
+    }
+
+    .translate-z-20 {
+        transform: translateZ(20px);
+    }
+
+    .translate-z-40 {
+        transform: translateZ(40px);
+    }
+
+    /* Floating Animation */
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+        }
+        50% {
+            transform: translateY(-20px) rotateX(5deg) rotateY(5deg);
+        }
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    /* 3D Card Hover Effect */
+    .card-3d {
+        transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        transform-style: preserve-3d;
+    }
+
+    .card-3d:hover {
+        transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+    }
+
+    /* Glow Effect */
+    .glow-effect {
+        box-shadow: 0 0 20px rgba(16, 185, 129, 0.3),
+                    0 0 40px rgba(16, 185, 129, 0.2),
+                    0 0 60px rgba(16, 185, 129, 0.1);
+    }
+
+    .glow-effect:hover {
+        box-shadow: 0 0 30px rgba(16, 185, 129, 0.5),
+                    0 0 60px rgba(16, 185, 129, 0.3),
+                    0 0 90px rgba(16, 185, 129, 0.2);
+    }
+
+    /* Parallax Background */
+    .parallax-bg {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@layer utilities{
+    .container {
+    @apply lg:max-w-5xl;
+    }
+
+    /* 3D Transform Utilities */
+    .transform-3d {
+        transform-style: preserve-3d;
+    }
+
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+}
